@@ -1,0 +1,15 @@
+# Xcode user files
+**/*.xcuserdata/
+**/*.pbxuser
+**/*.mode1v3
+**/*.mode2v3
+**/*.perspectivev3
+**/*.xccheckout
+**/*.xcscmblueprint
+
+# macOS
+.DS_Store
+
+# Unity iOS export temp artifacts (safe to ignore)
+ios/Il2CppOutputProject/
+ios/Il2CppTempDirArtifacts/

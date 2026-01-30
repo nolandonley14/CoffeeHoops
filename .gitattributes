@@ -1,0 +1,5 @@
+ios/Data/*.resS filter=lfs diff=lfs merge=lfs -text
+ios/Libraries/*.a filter=lfs diff=lfs merge=lfs -text
+ios/Data/*.bundle filter=lfs diff=lfs merge=lfs -text
+ios/Frameworks/*.framework/** filter=lfs diff=lfs merge=lfs -text
+ios/*.xcarchive filter=lfs diff=lfs merge=lfs -text
