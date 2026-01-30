@@ -11,5 +11,5 @@
 .DS_Store
 
 # Unity iOS export temp artifacts (safe to ignore)
-ios/Il2CppOutputProject/
 ios/Il2CppTempDirArtifacts/
+ios/Unity-Iphone/Images*
