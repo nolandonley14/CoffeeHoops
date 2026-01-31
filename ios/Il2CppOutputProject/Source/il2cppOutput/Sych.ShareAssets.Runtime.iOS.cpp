@@ -467,7 +467,7 @@ IL2CPP_EXTERN_C void DEFAULT_CALL share(char*, Il2CppMethodPointer);
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 69234
+// Method Definition Index: 69238
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR MonoScriptData_t7B93BFB7856C75EDBC3572EE001D6B5745BE871A UnitySourceGeneratedAssemblyMonoScriptTypes_v1_Get_m67F98B99B91F60BDD721B8AE77B4188103622F63 (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -501,7 +501,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR MonoScriptData_t7B93BFB7856C75EDBC3572EE001D6
 		return L_6;
 	}
 }
-// Method Definition Index: 69235
+// Method Definition Index: 69239
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnitySourceGeneratedAssemblyMonoScriptTypes_v1__ctor_mB888B6E5ED6C77326F2EA6BB2E50A9523139AE15 (UnitySourceGeneratedAssemblyMonoScriptTypes_v1_t20273D34BA0D5589FAEBB4DFE2CFF58DDBCA71DA* __this, const RuntimeMethod* method) 
 {
 	{
@@ -594,7 +594,7 @@ extern "C" void CDECL ReversePInvokeWrapper_ShareNativeBridge_OnCompleteCallback
 	ShareNativeBridge_OnCompleteCallback_mBF867B0AA1023780EF4F03FE6148BAB2E9EAC358(static_cast<bool>(___0_success), NULL);
 
 }
-// Method Definition Index: 69236
+// Method Definition Index: 69240
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ShareNativeBridge_share_m882350065FE3695A633FDF1C27C8058148763B81 (String_t* ___0_items, CompleteDelegate_t79D75937806CB31AB4BF4DFAA9F527E3654ACCCA* ___1_callback, const RuntimeMethod* method) 
 {
 	typedef void (DEFAULT_CALL *PInvokeFunc) (char*, Il2CppMethodPointer);
@@ -611,7 +611,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ShareNativeBridge_share_m882350065FE3695
 	____0_items_marshaled = NULL;
 
 }
-// Method Definition Index: 69237
+// Method Definition Index: 69241
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ShareNativeBridge_ShareItems_m3573CFDB55120EF6ADA5934C6393D6454304EBC8 (ShareNativeBridge_tD9C1B2F49FE8F17DE2F2BEE7C87ECCAA1EF17E15* __this, List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD* ___0_items, Action_1_t10DCB0C07D0D3C565CEACADC80D1152B35A45F6C* ___1_completeCallback, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -692,7 +692,7 @@ IL_0035:
 		return;
 	}
 }
-// Method Definition Index: 69238
+// Method Definition Index: 69242
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ShareNativeBridge_OnCompleteCallback_mBF867B0AA1023780EF4F03FE6148BAB2E9EAC358 (bool ___0_success, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -726,7 +726,7 @@ IL_000a:
 		return;
 	}
 }
-// Method Definition Index: 69239
+// Method Definition Index: 69243
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ShareNativeBridge__ctor_mF39AD45DB262ADC8E97BB1989583F57E0E2ED068 (ShareNativeBridge_tD9C1B2F49FE8F17DE2F2BEE7C87ECCAA1EF17E15* __this, const RuntimeMethod* method) 
 {
 	{
@@ -770,7 +770,7 @@ IL2CPP_EXTERN_C  void DelegatePInvokeWrapper_CompleteDelegate_t79D75937806CB31AB
 	il2cppPInvokeFunc(static_cast<int32_t>(___0_success));
 
 }
-// Method Definition Index: 69240
+// Method Definition Index: 69244
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CompleteDelegate__ctor_mEF0AEB62CF5FD153B407586DDCBEA72C2F9002FD (CompleteDelegate_t79D75937806CB31AB4BF4DFAA9F527E3654ACCCA* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
 {
 	__this->___method_ptr = (intptr_t)il2cpp_codegen_get_method_pointer((RuntimeMethod*)___1_method);
@@ -799,20 +799,20 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CompleteDelegate__ctor_mEF0AEB62CF5FD153
 	}
 	__this->___extra_arg = (intptr_t)&CompleteDelegate_Invoke_m721683EA6BDE61E9B7E98730986D70F4722D922B_Multicast;
 }
-// Method Definition Index: 69241
+// Method Definition Index: 69245
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CompleteDelegate_Invoke_m721683EA6BDE61E9B7E98730986D70F4722D922B (CompleteDelegate_t79D75937806CB31AB4BF4DFAA9F527E3654ACCCA* __this, bool ___0_success, const RuntimeMethod* method) 
 {
 	typedef void (*FunctionPointerType) (RuntimeObject*, bool, const RuntimeMethod*);
 	((FunctionPointerType)__this->___invoke_impl)((Il2CppObject*)__this->___method_code, ___0_success, reinterpret_cast<RuntimeMethod*>(__this->___method));
 }
-// Method Definition Index: 69242
+// Method Definition Index: 69246
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CompleteDelegate_BeginInvoke_mD99620E1151CBA3F0CD96CCEB3BC1076CEA52157 (CompleteDelegate_t79D75937806CB31AB4BF4DFAA9F527E3654ACCCA* __this, bool ___0_success, AsyncCallback_t7FEF460CBDCFB9C5FA2EF776984778B9A4145F4C* ___1_callback, RuntimeObject* ___2_object, const RuntimeMethod* method) 
 {
 	void *__d_args[2] = {0};
 	__d_args[0] = Box(il2cpp_defaults.boolean_class, &___0_success);
 	return (RuntimeObject*)il2cpp_codegen_delegate_begin_invoke((RuntimeDelegate*)__this, __d_args, (RuntimeDelegate*)___1_callback, (RuntimeObject*)___2_object);
 }
-// Method Definition Index: 69243
+// Method Definition Index: 69247
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CompleteDelegate_EndInvoke_m1588C23CDAFFBAAEE316C31F09351F2D88C66F21 (CompleteDelegate_t79D75937806CB31AB4BF4DFAA9F527E3654ACCCA* __this, RuntimeObject* ___0_result, const RuntimeMethod* method) 
 {
 	il2cpp_codegen_delegate_end_invoke((Il2CppAsyncResult*) ___0_result, 0);
