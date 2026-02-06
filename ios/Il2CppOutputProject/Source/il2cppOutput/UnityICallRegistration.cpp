@@ -646,6 +646,18 @@ void RegisterAllStrippedInternalCalls()
 		void Register_UnityEngine_Application_OpenURL_Injected();
 		Register_UnityEngine_Application_OpenURL_Injected();
 
+		//System.Void UnityEngine.Application::get_cloudProjectId_Injected(UnityEngine.Bindings.ManagedSpanWrapper&)
+		void Register_UnityEngine_Application_get_cloudProjectId_Injected();
+		Register_UnityEngine_Application_get_cloudProjectId_Injected();
+
+		//System.Void UnityEngine.Application::get_identifier_Injected(UnityEngine.Bindings.ManagedSpanWrapper&)
+		void Register_UnityEngine_Application_get_identifier_Injected();
+		Register_UnityEngine_Application_get_identifier_Injected();
+
+		//System.Void UnityEngine.Application::get_installerName_Injected(UnityEngine.Bindings.ManagedSpanWrapper&)
+		void Register_UnityEngine_Application_get_installerName_Injected();
+		Register_UnityEngine_Application_get_installerName_Injected();
+
 		//System.Void UnityEngine.Application::get_persistentDataPath_Injected(UnityEngine.Bindings.ManagedSpanWrapper&)
 		void Register_UnityEngine_Application_get_persistentDataPath_Injected();
 		Register_UnityEngine_Application_get_persistentDataPath_Injected();
@@ -658,9 +670,25 @@ void RegisterAllStrippedInternalCalls()
 		void Register_UnityEngine_Application_get_unityVersion_Injected();
 		Register_UnityEngine_Application_get_unityVersion_Injected();
 
+		//System.Void UnityEngine.Application::get_version_Injected(UnityEngine.Bindings.ManagedSpanWrapper&)
+		void Register_UnityEngine_Application_get_version_Injected();
+		Register_UnityEngine_Application_get_version_Injected();
+
+		//UnityEngine.ApplicationInstallMode UnityEngine.Application::get_installMode()
+		void Register_UnityEngine_Application_get_installMode();
+		Register_UnityEngine_Application_get_installMode();
+
+		//UnityEngine.ApplicationSandboxType UnityEngine.Application::get_sandboxType()
+		void Register_UnityEngine_Application_get_sandboxType();
+		Register_UnityEngine_Application_get_sandboxType();
+
 		//UnityEngine.RuntimePlatform UnityEngine.Application::get_platform()
 		void Register_UnityEngine_Application_get_platform();
 		Register_UnityEngine_Application_get_platform();
+
+		//UnityEngine.SystemLanguage UnityEngine.Application::get_systemLanguage()
+		void Register_UnityEngine_Application_get_systemLanguage();
+		Register_UnityEngine_Application_get_systemLanguage();
 
 	//End Registrations for type : UnityEngine.Application
 
@@ -671,6 +699,22 @@ void RegisterAllStrippedInternalCalls()
 		Register_UnityEngine_AssetBundle_LoadAsset_Internal_Injected();
 
 	//End Registrations for type : UnityEngine.AssetBundle
+
+	//Start Registrations for type : UnityEngine.AsyncOperation
+
+		//System.Boolean UnityEngine.AsyncOperation::get_isDone_Injected(System.IntPtr)
+		void Register_UnityEngine_AsyncOperation_get_isDone_Injected();
+		Register_UnityEngine_AsyncOperation_get_isDone_Injected();
+
+		//System.Void UnityEngine.AsyncOperation::InternalDestroy(System.IntPtr)
+		void Register_UnityEngine_AsyncOperation_InternalDestroy();
+		Register_UnityEngine_AsyncOperation_InternalDestroy();
+
+		//System.Void UnityEngine.AsyncOperation::InternalSetManagedObject(System.IntPtr,UnityEngine.AsyncOperation)
+		void Register_UnityEngine_AsyncOperation_InternalSetManagedObject();
+		Register_UnityEngine_AsyncOperation_InternalSetManagedObject();
+
+	//End Registrations for type : UnityEngine.AsyncOperation
 
 	//Start Registrations for type : UnityEngine.Audio.ScriptableProcessorBindings
 
@@ -691,6 +735,50 @@ void RegisterAllStrippedInternalCalls()
 		Register_UnityEngine_AudioSettings_StopAudioOutput();
 
 	//End Registrations for type : UnityEngine.AudioSettings
+
+	//Start Registrations for type : UnityEngine.AudioSource
+
+		//System.Boolean UnityEngine.AudioSource::get_isPlaying_Injected(System.IntPtr)
+		void Register_UnityEngine_AudioSource_get_isPlaying_Injected();
+		Register_UnityEngine_AudioSource_get_isPlaying_Injected();
+
+		//System.IntPtr UnityEngine.AudioSource::get_generatorObject_Injected(System.IntPtr)
+		void Register_UnityEngine_AudioSource_get_generatorObject_Injected();
+		Register_UnityEngine_AudioSource_get_generatorObject_Injected();
+
+		//System.Single UnityEngine.AudioSource::get_volume_Injected(System.IntPtr)
+		void Register_UnityEngine_AudioSource_get_volume_Injected();
+		Register_UnityEngine_AudioSource_get_volume_Injected();
+
+		//System.Void UnityEngine.AudioSource::PlayHelper_Injected(System.IntPtr,System.UInt64)
+		void Register_UnityEngine_AudioSource_PlayHelper_Injected();
+		Register_UnityEngine_AudioSource_PlayHelper_Injected();
+
+		//System.Void UnityEngine.AudioSource::Stop_Injected(System.IntPtr,System.Boolean)
+		void Register_UnityEngine_AudioSource_Stop_Injected();
+		Register_UnityEngine_AudioSource_Stop_Injected();
+
+		//System.Void UnityEngine.AudioSource::set_generatorObject_Injected(System.IntPtr,System.IntPtr)
+		void Register_UnityEngine_AudioSource_set_generatorObject_Injected();
+		Register_UnityEngine_AudioSource_set_generatorObject_Injected();
+
+		//System.Void UnityEngine.AudioSource::set_loop_Injected(System.IntPtr,System.Boolean)
+		void Register_UnityEngine_AudioSource_set_loop_Injected();
+		Register_UnityEngine_AudioSource_set_loop_Injected();
+
+		//System.Void UnityEngine.AudioSource::set_playOnAwake_Injected(System.IntPtr,System.Boolean)
+		void Register_UnityEngine_AudioSource_set_playOnAwake_Injected();
+		Register_UnityEngine_AudioSource_set_playOnAwake_Injected();
+
+		//System.Void UnityEngine.AudioSource::set_spatialBlend_Injected(System.IntPtr,System.Single)
+		void Register_UnityEngine_AudioSource_set_spatialBlend_Injected();
+		Register_UnityEngine_AudioSource_set_spatialBlend_Injected();
+
+		//System.Void UnityEngine.AudioSource::set_volume_Injected(System.IntPtr,System.Single)
+		void Register_UnityEngine_AudioSource_set_volume_Injected();
+		Register_UnityEngine_AudioSource_set_volume_Injected();
+
+	//End Registrations for type : UnityEngine.AudioSource
 
 	//Start Registrations for type : UnityEngine.Awaitable
 
@@ -2532,6 +2620,14 @@ void RegisterAllStrippedInternalCalls()
 
 	//End Registrations for type : UnityEngine.HDROutputSettings
 
+	//Start Registrations for type : UnityEngine.Identifiers.Identifiers
+
+		//System.Void UnityEngine.Identifiers.Identifiers::GetInstallationId_Injected(UnityEngine.Bindings.ManagedSpanWrapper&)
+		void Register_UnityEngine_Identifiers_Identifiers_GetInstallationId_Injected();
+		Register_UnityEngine_Identifiers_Identifiers_GetInstallationId_Injected();
+
+	//End Registrations for type : UnityEngine.Identifiers.Identifiers
+
 	//Start Registrations for type : UnityEngine.Input
 
 		//System.Boolean UnityEngine.Input::CheckDisabled()
@@ -2862,9 +2958,17 @@ void RegisterAllStrippedInternalCalls()
 		void Register_UnityEngine_LineRenderer_SetPosition_Injected();
 		Register_UnityEngine_LineRenderer_SetPosition_Injected();
 
+		//System.Void UnityEngine.LineRenderer::set_endColor_Injected(System.IntPtr,UnityEngine.Color&)
+		void Register_UnityEngine_LineRenderer_set_endColor_Injected();
+		Register_UnityEngine_LineRenderer_set_endColor_Injected();
+
 		//System.Void UnityEngine.LineRenderer::set_positionCount_Injected(System.IntPtr,System.Int32)
 		void Register_UnityEngine_LineRenderer_set_positionCount_Injected();
 		Register_UnityEngine_LineRenderer_set_positionCount_Injected();
+
+		//System.Void UnityEngine.LineRenderer::set_startColor_Injected(System.IntPtr,UnityEngine.Color&)
+		void Register_UnityEngine_LineRenderer_set_startColor_Injected();
+		Register_UnityEngine_LineRenderer_set_startColor_Injected();
 
 	//End Registrations for type : UnityEngine.LineRenderer
 
@@ -3274,6 +3378,10 @@ void RegisterAllStrippedInternalCalls()
 		void Register_UnityEngine_Mathf_LinearToGammaSpace();
 		Register_UnityEngine_Mathf_LinearToGammaSpace();
 
+		//System.Single UnityEngine.Mathf::PerlinNoise(System.Single,System.Single)
+		void Register_UnityEngine_Mathf_PerlinNoise();
+		Register_UnityEngine_Mathf_PerlinNoise();
+
 		//System.UInt16 UnityEngine.Mathf::FloatToHalf(System.Single)
 		void Register_UnityEngine_Mathf_FloatToHalf();
 		Register_UnityEngine_Mathf_FloatToHalf();
@@ -3567,6 +3675,194 @@ void RegisterAllStrippedInternalCalls()
 		Register_UnityEngine_NameFormatter_FormatVariableName_Injected();
 
 	//End Registrations for type : UnityEngine.NameFormatter
+
+	//Start Registrations for type : UnityEngine.Networking.CertificateHandler
+
+		//System.Void UnityEngine.Networking.CertificateHandler::ReleaseFromScripting_Injected(System.IntPtr)
+		void Register_UnityEngine_Networking_CertificateHandler_ReleaseFromScripting_Injected();
+		Register_UnityEngine_Networking_CertificateHandler_ReleaseFromScripting_Injected();
+
+	//End Registrations for type : UnityEngine.Networking.CertificateHandler
+
+	//Start Registrations for type : UnityEngine.Networking.DownloadHandler
+
+		//System.Byte* UnityEngine.Networking.DownloadHandler::InternalGetByteArray_Injected(System.IntPtr,System.Int32&)
+		void Register_UnityEngine_Networking_DownloadHandler_InternalGetByteArray_Injected();
+		Register_UnityEngine_Networking_DownloadHandler_InternalGetByteArray_Injected();
+
+		//System.Void UnityEngine.Networking.DownloadHandler::GetContentType_Injected(System.IntPtr,UnityEngine.Bindings.ManagedSpanWrapper&)
+		void Register_UnityEngine_Networking_DownloadHandler_GetContentType_Injected();
+		Register_UnityEngine_Networking_DownloadHandler_GetContentType_Injected();
+
+		//System.Void UnityEngine.Networking.DownloadHandler::ReleaseFromScripting_Injected(System.IntPtr)
+		void Register_UnityEngine_Networking_DownloadHandler_ReleaseFromScripting_Injected();
+		Register_UnityEngine_Networking_DownloadHandler_ReleaseFromScripting_Injected();
+
+	//End Registrations for type : UnityEngine.Networking.DownloadHandler
+
+	//Start Registrations for type : UnityEngine.Networking.DownloadHandlerBuffer
+
+		//System.IntPtr UnityEngine.Networking.DownloadHandlerBuffer::Create(UnityEngine.Networking.DownloadHandlerBuffer)
+		void Register_UnityEngine_Networking_DownloadHandlerBuffer_Create();
+		Register_UnityEngine_Networking_DownloadHandlerBuffer_Create();
+
+	//End Registrations for type : UnityEngine.Networking.DownloadHandlerBuffer
+
+	//Start Registrations for type : UnityEngine.Networking.UnityWebRequest
+
+		//System.Boolean UnityEngine.Networking.UnityWebRequest::IsExecuting_Injected(System.IntPtr)
+		void Register_UnityEngine_Networking_UnityWebRequest_IsExecuting_Injected();
+		Register_UnityEngine_Networking_UnityWebRequest_IsExecuting_Injected();
+
+		//System.Boolean UnityEngine.Networking.UnityWebRequest::get_isModifiable_Injected(System.IntPtr)
+		void Register_UnityEngine_Networking_UnityWebRequest_get_isModifiable_Injected();
+		Register_UnityEngine_Networking_UnityWebRequest_get_isModifiable_Injected();
+
+		//System.Boolean UnityEngine.Networking.UnityWebRequest::get_use100Continue_Injected(System.IntPtr)
+		void Register_UnityEngine_Networking_UnityWebRequest_get_use100Continue_Injected();
+		Register_UnityEngine_Networking_UnityWebRequest_get_use100Continue_Injected();
+
+		//System.Int32 UnityEngine.Networking.UnityWebRequest::GetRedirectLimit_Injected(System.IntPtr)
+		void Register_UnityEngine_Networking_UnityWebRequest_GetRedirectLimit_Injected();
+		Register_UnityEngine_Networking_UnityWebRequest_GetRedirectLimit_Injected();
+
+		//System.Int32 UnityEngine.Networking.UnityWebRequest::GetTimeoutMsec_Injected(System.IntPtr)
+		void Register_UnityEngine_Networking_UnityWebRequest_GetTimeoutMsec_Injected();
+		Register_UnityEngine_Networking_UnityWebRequest_GetTimeoutMsec_Injected();
+
+		//System.Int64 UnityEngine.Networking.UnityWebRequest::get_responseCode_Injected(System.IntPtr)
+		void Register_UnityEngine_Networking_UnityWebRequest_get_responseCode_Injected();
+		Register_UnityEngine_Networking_UnityWebRequest_get_responseCode_Injected();
+
+		//System.IntPtr UnityEngine.Networking.UnityWebRequest::BeginWebRequest_Injected(System.IntPtr)
+		void Register_UnityEngine_Networking_UnityWebRequest_BeginWebRequest_Injected();
+		Register_UnityEngine_Networking_UnityWebRequest_BeginWebRequest_Injected();
+
+		//System.IntPtr UnityEngine.Networking.UnityWebRequest::Create()
+		void Register_UnityEngine_Networking_UnityWebRequest_Create();
+		Register_UnityEngine_Networking_UnityWebRequest_Create();
+
+		//System.Single UnityEngine.Networking.UnityWebRequest::GetDownloadProgress_Injected(System.IntPtr)
+		void Register_UnityEngine_Networking_UnityWebRequest_GetDownloadProgress_Injected();
+		Register_UnityEngine_Networking_UnityWebRequest_GetDownloadProgress_Injected();
+
+		//System.Single UnityEngine.Networking.UnityWebRequest::GetUploadProgress_Injected(System.IntPtr)
+		void Register_UnityEngine_Networking_UnityWebRequest_GetUploadProgress_Injected();
+		Register_UnityEngine_Networking_UnityWebRequest_GetUploadProgress_Injected();
+
+		//System.String[] UnityEngine.Networking.UnityWebRequest::GetResponseHeaderKeys_Injected(System.IntPtr)
+		void Register_UnityEngine_Networking_UnityWebRequest_GetResponseHeaderKeys_Injected();
+		Register_UnityEngine_Networking_UnityWebRequest_GetResponseHeaderKeys_Injected();
+
+		//System.UInt64 UnityEngine.Networking.UnityWebRequest::get_downloadedBytes_Injected(System.IntPtr)
+		void Register_UnityEngine_Networking_UnityWebRequest_get_downloadedBytes_Injected();
+		Register_UnityEngine_Networking_UnityWebRequest_get_downloadedBytes_Injected();
+
+		//System.UInt64 UnityEngine.Networking.UnityWebRequest::get_uploadedBytes_Injected(System.IntPtr)
+		void Register_UnityEngine_Networking_UnityWebRequest_get_uploadedBytes_Injected();
+		Register_UnityEngine_Networking_UnityWebRequest_get_uploadedBytes_Injected();
+
+		//System.Void UnityEngine.Networking.UnityWebRequest::Abort_Injected(System.IntPtr)
+		void Register_UnityEngine_Networking_UnityWebRequest_Abort_Injected();
+		Register_UnityEngine_Networking_UnityWebRequest_Abort_Injected();
+
+		//System.Void UnityEngine.Networking.UnityWebRequest::GetCustomMethod_Injected(System.IntPtr,UnityEngine.Bindings.ManagedSpanWrapper&)
+		void Register_UnityEngine_Networking_UnityWebRequest_GetCustomMethod_Injected();
+		Register_UnityEngine_Networking_UnityWebRequest_GetCustomMethod_Injected();
+
+		//System.Void UnityEngine.Networking.UnityWebRequest::GetHTTPStatusString_Injected(System.Int64,UnityEngine.Bindings.ManagedSpanWrapper&)
+		void Register_UnityEngine_Networking_UnityWebRequest_GetHTTPStatusString_Injected();
+		Register_UnityEngine_Networking_UnityWebRequest_GetHTTPStatusString_Injected();
+
+		//System.Void UnityEngine.Networking.UnityWebRequest::GetRequestHeader_Injected(System.IntPtr,UnityEngine.Bindings.ManagedSpanWrapper&,UnityEngine.Bindings.ManagedSpanWrapper&)
+		void Register_UnityEngine_Networking_UnityWebRequest_GetRequestHeader_Injected();
+		Register_UnityEngine_Networking_UnityWebRequest_GetRequestHeader_Injected();
+
+		//System.Void UnityEngine.Networking.UnityWebRequest::GetResponseHeader_Injected(System.IntPtr,UnityEngine.Bindings.ManagedSpanWrapper&,UnityEngine.Bindings.ManagedSpanWrapper&)
+		void Register_UnityEngine_Networking_UnityWebRequest_GetResponseHeader_Injected();
+		Register_UnityEngine_Networking_UnityWebRequest_GetResponseHeader_Injected();
+
+		//System.Void UnityEngine.Networking.UnityWebRequest::GetUrl_Injected(System.IntPtr,UnityEngine.Bindings.ManagedSpanWrapper&)
+		void Register_UnityEngine_Networking_UnityWebRequest_GetUrl_Injected();
+		Register_UnityEngine_Networking_UnityWebRequest_GetUrl_Injected();
+
+		//System.Void UnityEngine.Networking.UnityWebRequest::GetWebErrorString_Injected(UnityEngine.Networking.UnityWebRequest/UnityWebRequestError,UnityEngine.Bindings.ManagedSpanWrapper&)
+		void Register_UnityEngine_Networking_UnityWebRequest_GetWebErrorString_Injected();
+		Register_UnityEngine_Networking_UnityWebRequest_GetWebErrorString_Injected();
+
+		//System.Void UnityEngine.Networking.UnityWebRequest::Release_Injected(System.IntPtr)
+		void Register_UnityEngine_Networking_UnityWebRequest_Release_Injected();
+		Register_UnityEngine_Networking_UnityWebRequest_Release_Injected();
+
+		//System.Void UnityEngine.Networking.UnityWebRequest::set_use100Continue_Injected(System.IntPtr,System.Boolean)
+		void Register_UnityEngine_Networking_UnityWebRequest_set_use100Continue_Injected();
+		Register_UnityEngine_Networking_UnityWebRequest_set_use100Continue_Injected();
+
+		//UnityEngine.Networking.UnityWebRequest/Result UnityEngine.Networking.UnityWebRequest::get_result_Injected(System.IntPtr)
+		void Register_UnityEngine_Networking_UnityWebRequest_get_result_Injected();
+		Register_UnityEngine_Networking_UnityWebRequest_get_result_Injected();
+
+		//UnityEngine.Networking.UnityWebRequest/UnityWebRequestError UnityEngine.Networking.UnityWebRequest::GetError_Injected(System.IntPtr)
+		void Register_UnityEngine_Networking_UnityWebRequest_GetError_Injected();
+		Register_UnityEngine_Networking_UnityWebRequest_GetError_Injected();
+
+		//UnityEngine.Networking.UnityWebRequest/UnityWebRequestError UnityEngine.Networking.UnityWebRequest::InternalSetRequestHeader_Injected(System.IntPtr,UnityEngine.Bindings.ManagedSpanWrapper&,UnityEngine.Bindings.ManagedSpanWrapper&)
+		void Register_UnityEngine_Networking_UnityWebRequest_InternalSetRequestHeader_Injected();
+		Register_UnityEngine_Networking_UnityWebRequest_InternalSetRequestHeader_Injected();
+
+		//UnityEngine.Networking.UnityWebRequest/UnityWebRequestError UnityEngine.Networking.UnityWebRequest::SetCertificateHandler_Injected(System.IntPtr,System.IntPtr)
+		void Register_UnityEngine_Networking_UnityWebRequest_SetCertificateHandler_Injected();
+		Register_UnityEngine_Networking_UnityWebRequest_SetCertificateHandler_Injected();
+
+		//UnityEngine.Networking.UnityWebRequest/UnityWebRequestError UnityEngine.Networking.UnityWebRequest::SetCustomMethod_Injected(System.IntPtr,UnityEngine.Bindings.ManagedSpanWrapper&)
+		void Register_UnityEngine_Networking_UnityWebRequest_SetCustomMethod_Injected();
+		Register_UnityEngine_Networking_UnityWebRequest_SetCustomMethod_Injected();
+
+		//UnityEngine.Networking.UnityWebRequest/UnityWebRequestError UnityEngine.Networking.UnityWebRequest::SetDownloadHandler_Injected(System.IntPtr,System.IntPtr)
+		void Register_UnityEngine_Networking_UnityWebRequest_SetDownloadHandler_Injected();
+		Register_UnityEngine_Networking_UnityWebRequest_SetDownloadHandler_Injected();
+
+		//UnityEngine.Networking.UnityWebRequest/UnityWebRequestError UnityEngine.Networking.UnityWebRequest::SetMethod_Injected(System.IntPtr,UnityEngine.Networking.UnityWebRequest/UnityWebRequestMethod)
+		void Register_UnityEngine_Networking_UnityWebRequest_SetMethod_Injected();
+		Register_UnityEngine_Networking_UnityWebRequest_SetMethod_Injected();
+
+		//UnityEngine.Networking.UnityWebRequest/UnityWebRequestError UnityEngine.Networking.UnityWebRequest::SetTimeoutMsec_Injected(System.IntPtr,System.Int32)
+		void Register_UnityEngine_Networking_UnityWebRequest_SetTimeoutMsec_Injected();
+		Register_UnityEngine_Networking_UnityWebRequest_SetTimeoutMsec_Injected();
+
+		//UnityEngine.Networking.UnityWebRequest/UnityWebRequestError UnityEngine.Networking.UnityWebRequest::SetUploadHandler_Injected(System.IntPtr,System.IntPtr)
+		void Register_UnityEngine_Networking_UnityWebRequest_SetUploadHandler_Injected();
+		Register_UnityEngine_Networking_UnityWebRequest_SetUploadHandler_Injected();
+
+		//UnityEngine.Networking.UnityWebRequest/UnityWebRequestError UnityEngine.Networking.UnityWebRequest::SetUrl_Injected(System.IntPtr,UnityEngine.Bindings.ManagedSpanWrapper&)
+		void Register_UnityEngine_Networking_UnityWebRequest_SetUrl_Injected();
+		Register_UnityEngine_Networking_UnityWebRequest_SetUrl_Injected();
+
+		//UnityEngine.Networking.UnityWebRequest/UnityWebRequestMethod UnityEngine.Networking.UnityWebRequest::GetMethod_Injected(System.IntPtr)
+		void Register_UnityEngine_Networking_UnityWebRequest_GetMethod_Injected();
+		Register_UnityEngine_Networking_UnityWebRequest_GetMethod_Injected();
+
+	//End Registrations for type : UnityEngine.Networking.UnityWebRequest
+
+	//Start Registrations for type : UnityEngine.Networking.UploadHandler
+
+		//System.Void UnityEngine.Networking.UploadHandler::InternalSetContentType_Injected(System.IntPtr,UnityEngine.Bindings.ManagedSpanWrapper&)
+		void Register_UnityEngine_Networking_UploadHandler_InternalSetContentType_Injected();
+		Register_UnityEngine_Networking_UploadHandler_InternalSetContentType_Injected();
+
+		//System.Void UnityEngine.Networking.UploadHandler::ReleaseFromScripting_Injected(System.IntPtr)
+		void Register_UnityEngine_Networking_UploadHandler_ReleaseFromScripting_Injected();
+		Register_UnityEngine_Networking_UploadHandler_ReleaseFromScripting_Injected();
+
+	//End Registrations for type : UnityEngine.Networking.UploadHandler
+
+	//Start Registrations for type : UnityEngine.Networking.UploadHandlerRaw
+
+		//System.IntPtr UnityEngine.Networking.UploadHandlerRaw::Create(UnityEngine.Networking.UploadHandlerRaw,System.Byte*,System.Int32)
+		void Register_UnityEngine_Networking_UploadHandlerRaw_Create();
+		Register_UnityEngine_Networking_UploadHandlerRaw_Create();
+
+	//End Registrations for type : UnityEngine.Networking.UploadHandlerRaw
 
 	//Start Registrations for type : UnityEngine.Object
 
@@ -3942,6 +4238,10 @@ void RegisterAllStrippedInternalCalls()
 		void Register_UnityEngine_PlayerPrefs_GetInt_Injected();
 		Register_UnityEngine_PlayerPrefs_GetInt_Injected();
 
+		//System.Void UnityEngine.PlayerPrefs::DeleteKey_Injected(UnityEngine.Bindings.ManagedSpanWrapper&)
+		void Register_UnityEngine_PlayerPrefs_DeleteKey_Injected();
+		Register_UnityEngine_PlayerPrefs_DeleteKey_Injected();
+
 		//System.Void UnityEngine.PlayerPrefs::GetString_Injected(UnityEngine.Bindings.ManagedSpanWrapper&,UnityEngine.Bindings.ManagedSpanWrapper&,UnityEngine.Bindings.ManagedSpanWrapper&)
 		void Register_UnityEngine_PlayerPrefs_GetString_Injected();
 		Register_UnityEngine_PlayerPrefs_GetString_Injected();
@@ -4277,6 +4577,10 @@ void RegisterAllStrippedInternalCalls()
 		//System.Void UnityEngine.Renderer::set_sortingOrder_Injected(System.IntPtr,System.Int32)
 		void Register_UnityEngine_Renderer_set_sortingOrder_Injected();
 		Register_UnityEngine_Renderer_set_sortingOrder_Injected();
+
+		//UnityEngine.Material[] UnityEngine.Renderer::GetMaterialArray_Injected(System.IntPtr)
+		void Register_UnityEngine_Renderer_GetMaterialArray_Injected();
+		Register_UnityEngine_Renderer_GetMaterialArray_Injected();
 
 	//End Registrations for type : UnityEngine.Renderer
 
@@ -5738,6 +6042,10 @@ void RegisterAllStrippedInternalCalls()
 		void Register_UnityEngine_Screen_SetMSAASamples();
 		Register_UnityEngine_Screen_SetMSAASamples();
 
+		//System.Void UnityEngine.Screen::get_currentResolution_Injected(UnityEngine.Resolution&)
+		void Register_UnityEngine_Screen_get_currentResolution_Injected();
+		Register_UnityEngine_Screen_get_currentResolution_Injected();
+
 		//System.Void UnityEngine.Screen::get_safeArea_Injected(UnityEngine.Rect&)
 		void Register_UnityEngine_Screen_get_safeArea_Injected();
 		Register_UnityEngine_Screen_get_safeArea_Injected();
@@ -6122,9 +6430,17 @@ void RegisterAllStrippedInternalCalls()
 		void Register_UnityEngine_SystemInfo_UsesReversedZBuffer();
 		Register_UnityEngine_SystemInfo_UsesReversedZBuffer();
 
+		//System.Int32 UnityEngine.SystemInfo::GetGraphicsDeviceID()
+		void Register_UnityEngine_SystemInfo_GetGraphicsDeviceID();
+		Register_UnityEngine_SystemInfo_GetGraphicsDeviceID();
+
 		//System.Int32 UnityEngine.SystemInfo::GetGraphicsDeviceVendorID()
 		void Register_UnityEngine_SystemInfo_GetGraphicsDeviceVendorID();
 		Register_UnityEngine_SystemInfo_GetGraphicsDeviceVendorID();
+
+		//System.Int32 UnityEngine.SystemInfo::GetGraphicsMemorySize()
+		void Register_UnityEngine_SystemInfo_GetGraphicsMemorySize();
+		Register_UnityEngine_SystemInfo_GetGraphicsMemorySize();
 
 		//System.Int32 UnityEngine.SystemInfo::GetGraphicsShaderLevel()
 		void Register_UnityEngine_SystemInfo_GetGraphicsShaderLevel();
@@ -6137,6 +6453,18 @@ void RegisterAllStrippedInternalCalls()
 		//System.Int32 UnityEngine.SystemInfo::GetMaxTextureSize()
 		void Register_UnityEngine_SystemInfo_GetMaxTextureSize();
 		Register_UnityEngine_SystemInfo_GetMaxTextureSize();
+
+		//System.Int32 UnityEngine.SystemInfo::GetPhysicalMemoryMB()
+		void Register_UnityEngine_SystemInfo_GetPhysicalMemoryMB();
+		Register_UnityEngine_SystemInfo_GetPhysicalMemoryMB();
+
+		//System.Int32 UnityEngine.SystemInfo::GetProcessorCount()
+		void Register_UnityEngine_SystemInfo_GetProcessorCount();
+		Register_UnityEngine_SystemInfo_GetProcessorCount();
+
+		//System.Int32 UnityEngine.SystemInfo::GetProcessorFrequencyMHz()
+		void Register_UnityEngine_SystemInfo_GetProcessorFrequencyMHz();
+		Register_UnityEngine_SystemInfo_GetProcessorFrequencyMHz();
 
 		//System.Int32 UnityEngine.SystemInfo::GetRenderTextureSupportedMSAASampleCount_Injected(UnityEngine.RenderTextureDescriptor&)
 		void Register_UnityEngine_SystemInfo_GetRenderTextureSupportedMSAASampleCount_Injected();
@@ -6174,9 +6502,17 @@ void RegisterAllStrippedInternalCalls()
 		void Register_UnityEngine_SystemInfo_GetGraphicsDeviceVendor_Injected();
 		Register_UnityEngine_SystemInfo_GetGraphicsDeviceVendor_Injected();
 
+		//System.Void UnityEngine.SystemInfo::GetGraphicsDeviceVersion_Injected(UnityEngine.Bindings.ManagedSpanWrapper&)
+		void Register_UnityEngine_SystemInfo_GetGraphicsDeviceVersion_Injected();
+		Register_UnityEngine_SystemInfo_GetGraphicsDeviceVersion_Injected();
+
 		//System.Void UnityEngine.SystemInfo::GetOperatingSystem_Injected(UnityEngine.Bindings.ManagedSpanWrapper&)
 		void Register_UnityEngine_SystemInfo_GetOperatingSystem_Injected();
 		Register_UnityEngine_SystemInfo_GetOperatingSystem_Injected();
+
+		//System.Void UnityEngine.SystemInfo::GetProcessorType_Injected(UnityEngine.Bindings.ManagedSpanWrapper&)
+		void Register_UnityEngine_SystemInfo_GetProcessorType_Injected();
+		Register_UnityEngine_SystemInfo_GetProcessorType_Injected();
 
 		//UnityEngine.DeviceType UnityEngine.SystemInfo::GetDeviceType()
 		void Register_UnityEngine_SystemInfo_GetDeviceType();

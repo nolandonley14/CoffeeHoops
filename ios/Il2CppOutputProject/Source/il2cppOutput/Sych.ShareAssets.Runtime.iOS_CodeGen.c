@@ -33,20 +33,20 @@ static Il2CppMethodPointer s_methodPointers[10] =
 };
 static const int32_t s_InvokerIndices[10] = 
 {
-	24177,
-	13935,
-	20302,
-	5238,
-	22893,
-	13935,
-	5230,
-	10340,
-	1939,
-	10536,
+	26123,
+	15269,
+	22042,
+	5901,
+	24813,
+	15269,
+	5893,
+	11422,
+	2318,
+	11630,
 };
 static const Il2CppTokenIndexMethodTuple s_reversePInvokeIndices[1] = 
 {
-	{ 0x06000005, 19,  (void**)&ShareNativeBridge_OnCompleteCallback_mBF867B0AA1023780EF4F03FE6148BAB2E9EAC358_RuntimeMethod_var, 0 },
+	{ 0x06000005, 29,  (void**)&ShareNativeBridge_OnCompleteCallback_mBF867B0AA1023780EF4F03FE6148BAB2E9EAC358_RuntimeMethod_var, 0 },
 };
 IL2CPP_EXTERN_C const Il2CppCodeGenModule g_Sych_ShareAssets_Runtime_iOS_CodeGenModule;
 const Il2CppCodeGenModule g_Sych_ShareAssets_Runtime_iOS_CodeGenModule = 
