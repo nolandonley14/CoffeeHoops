@@ -686,6 +686,10 @@ void RegisterAllStrippedInternalCalls()
 		void Register_UnityEngine_Application_get_sandboxType();
 		Register_UnityEngine_Application_get_sandboxType();
 
+		//UnityEngine.NetworkReachability UnityEngine.Application::get_internetReachability()
+		void Register_UnityEngine_Application_get_internetReachability();
+		Register_UnityEngine_Application_get_internetReachability();
+
 		//UnityEngine.RuntimePlatform UnityEngine.Application::get_platform()
 		void Register_UnityEngine_Application_get_platform();
 		Register_UnityEngine_Application_get_platform();
@@ -3929,10 +3933,6 @@ void RegisterAllStrippedInternalCalls()
 		//System.IntPtr UnityEngine.Object::Internal_CloneSingle_Injected(System.IntPtr)
 		void Register_UnityEngine_Object_Internal_CloneSingle_Injected();
 		Register_UnityEngine_Object_Internal_CloneSingle_Injected();
-
-		//System.IntPtr UnityEngine.Object::Internal_InstantiateSingle_Injected(System.IntPtr,UnityEngine.Vector3&,UnityEngine.Quaternion&)
-		void Register_UnityEngine_Object_Internal_InstantiateSingle_Injected();
-		Register_UnityEngine_Object_Internal_InstantiateSingle_Injected();
 
 		//System.Void UnityEngine.Object::DestroyImmediate_Injected(System.IntPtr,System.Boolean)
 		void Register_UnityEngine_Object_DestroyImmediate_Injected();

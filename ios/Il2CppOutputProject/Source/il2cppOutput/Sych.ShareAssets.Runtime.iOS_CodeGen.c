@@ -33,16 +33,16 @@ static Il2CppMethodPointer s_methodPointers[10] =
 };
 static const int32_t s_InvokerIndices[10] = 
 {
-	26137,
-	15276,
-	22051,
-	5908,
-	24823,
-	15276,
-	5900,
-	11429,
-	2324,
-	11637,
+	26541,
+	15664,
+	22450,
+	6204,
+	25226,
+	15664,
+	6196,
+	11800,
+	2435,
+	12008,
 };
 static const Il2CppTokenIndexMethodTuple s_reversePInvokeIndices[1] = 
 {
