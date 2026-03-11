@@ -195,6 +195,36 @@ Adding elements from Library/PackageCache/com.unity.services.wire@9a73acde80cc/R
 
 --------------------------------------------------
 
+Adding elements from Library/PackageCache/com.unity.services.cloudsave@271cfa0557ba/Runtime/PrivacyInfo.xcprivacy
+	NSPrivacyCollectedDataTypes:
+		0:
+			NSPrivacyCollectedDataType:
+				NSPrivacyCollectedDataTypeUserID
+			NSPrivacyCollectedDataTypeLinked:
+				True
+			NSPrivacyCollectedDataTypePurposes:
+				0:
+					NSPrivacyCollectedDataTypePurposeAppFunctionality
+				1:
+					NSPrivacyCollectedDataTypePurposeAnalytics
+			NSPrivacyCollectedDataTypeTracking:
+				False
+		1:
+			NSPrivacyCollectedDataType:
+				NSPrivacyCollectedDataTypeCoarseLocation
+			NSPrivacyCollectedDataTypeLinked:
+				True
+			NSPrivacyCollectedDataTypePurposes:
+				0:
+					NSPrivacyCollectedDataTypePurposeAppFunctionality
+			NSPrivacyCollectedDataTypeTracking:
+				False
+
+	NSPrivacyTracking:
+		False
+
+--------------------------------------------------
+
 Adding elements from Library/PackageCache/com.unity.remote-config@e430fbdc9e4e/PrivacyInfo.xcprivacy
 	NSPrivacyCollectedDataTypes:
 		0:
