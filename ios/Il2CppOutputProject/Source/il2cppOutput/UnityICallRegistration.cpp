@@ -762,6 +762,14 @@ void RegisterAllStrippedInternalCalls()
 		void Register_UnityEngine_AudioSource_PlayHelper_Injected();
 		Register_UnityEngine_AudioSource_PlayHelper_Injected();
 
+		//System.Void UnityEngine.AudioSource::PlayOneShotHelper_Injected(System.IntPtr,System.IntPtr,System.Single)
+		void Register_UnityEngine_AudioSource_PlayOneShotHelper_Injected();
+		Register_UnityEngine_AudioSource_PlayOneShotHelper_Injected();
+
+		//System.Void UnityEngine.AudioSource::SetPitch_Injected(System.IntPtr,System.Single)
+		void Register_UnityEngine_AudioSource_SetPitch_Injected();
+		Register_UnityEngine_AudioSource_SetPitch_Injected();
+
 		//System.Void UnityEngine.AudioSource::Stop_Injected(System.IntPtr,System.Boolean)
 		void Register_UnityEngine_AudioSource_Stop_Injected();
 		Register_UnityEngine_AudioSource_Stop_Injected();
@@ -2942,6 +2950,14 @@ void RegisterAllStrippedInternalCalls()
 		void Register_UnityEngine_Light_get_cookieSize2D_Injected();
 		Register_UnityEngine_Light_get_cookieSize2D_Injected();
 
+		//System.Void UnityEngine.Light::set_color_Injected(System.IntPtr,UnityEngine.Color&)
+		void Register_UnityEngine_Light_set_color_Injected();
+		Register_UnityEngine_Light_set_color_Injected();
+
+		//System.Void UnityEngine.Light::set_intensity_Injected(System.IntPtr,System.Single)
+		void Register_UnityEngine_Light_set_intensity_Injected();
+		Register_UnityEngine_Light_set_intensity_Injected();
+
 		//System.Void UnityEngine.Light::set_renderingLayerMask_Injected(System.IntPtr,System.Int32)
 		void Register_UnityEngine_Light_set_renderingLayerMask_Injected();
 		Register_UnityEngine_Light_set_renderingLayerMask_Injected();
@@ -4022,9 +4038,17 @@ void RegisterAllStrippedInternalCalls()
 		void Register_UnityEngine_ParticleSystem_GetParticles_Injected();
 		Register_UnityEngine_ParticleSystem_GetParticles_Injected();
 
+		//System.Int32 UnityEngine.ParticleSystem::get_particleCount_Injected(System.IntPtr)
+		void Register_UnityEngine_ParticleSystem_get_particleCount_Injected();
+		Register_UnityEngine_ParticleSystem_get_particleCount_Injected();
+
 		//System.Single UnityEngine.ParticleSystem::GetParticleCurrentSize_Injected(System.IntPtr,UnityEngine.ParticleSystem/Particle&)
 		void Register_UnityEngine_ParticleSystem_GetParticleCurrentSize_Injected();
 		Register_UnityEngine_ParticleSystem_GetParticleCurrentSize_Injected();
+
+		//System.Void UnityEngine.ParticleSystem::Clear_Injected(System.IntPtr,System.Boolean)
+		void Register_UnityEngine_ParticleSystem_Clear_Injected();
+		Register_UnityEngine_ParticleSystem_Clear_Injected();
 
 		//System.Void UnityEngine.ParticleSystem::EmitOld_Internal_Injected(System.IntPtr,UnityEngine.ParticleSystem/Particle&)
 		void Register_UnityEngine_ParticleSystem_EmitOld_Internal_Injected();
@@ -4056,6 +4080,22 @@ void RegisterAllStrippedInternalCalls()
 
 	//End Registrations for type : UnityEngine.ParticleSystem
 
+	//Start Registrations for type : UnityEngine.ParticleSystem/EmissionModule
+
+		//System.Void UnityEngine.ParticleSystem/EmissionModule::get_rateOverTimeBlittable_Injected(UnityEngine.ParticleSystem/EmissionModule&,UnityEngine.ParticleSystem/MinMaxCurveBlittable&)
+		void Register_UnityEngine_ParticleSystem_EmissionModule_get_rateOverTimeBlittable_Injected();
+		Register_UnityEngine_ParticleSystem_EmissionModule_get_rateOverTimeBlittable_Injected();
+
+		//System.Void UnityEngine.ParticleSystem/EmissionModule::set_enabled(System.Boolean)
+		void Register_UnityEngine_ParticleSystem_EmissionModule_set_enabled();
+		Register_UnityEngine_ParticleSystem_EmissionModule_set_enabled();
+
+		//System.Void UnityEngine.ParticleSystem/EmissionModule::set_rateOverTimeBlittable_Injected(UnityEngine.ParticleSystem/EmissionModule&,UnityEngine.ParticleSystem/MinMaxCurveBlittable&)
+		void Register_UnityEngine_ParticleSystem_EmissionModule_set_rateOverTimeBlittable_Injected();
+		Register_UnityEngine_ParticleSystem_EmissionModule_set_rateOverTimeBlittable_Injected();
+
+	//End Registrations for type : UnityEngine.ParticleSystem/EmissionModule
+
 	//Start Registrations for type : UnityEngine.ParticleSystem/MainModule
 
 		//System.Boolean UnityEngine.ParticleSystem/MainModule::get_playOnAwake()
@@ -4066,6 +4106,10 @@ void RegisterAllStrippedInternalCalls()
 		void Register_UnityEngine_ParticleSystem_MainModule_get_maxParticles();
 		Register_UnityEngine_ParticleSystem_MainModule_get_maxParticles();
 
+		//System.Void UnityEngine.ParticleSystem/MainModule::get_startSizeBlittable_Injected(UnityEngine.ParticleSystem/MainModule&,UnityEngine.ParticleSystem/MinMaxCurveBlittable&)
+		void Register_UnityEngine_ParticleSystem_MainModule_get_startSizeBlittable_Injected();
+		Register_UnityEngine_ParticleSystem_MainModule_get_startSizeBlittable_Injected();
+
 		//System.Void UnityEngine.ParticleSystem/MainModule::set_maxParticles(System.Int32)
 		void Register_UnityEngine_ParticleSystem_MainModule_set_maxParticles();
 		Register_UnityEngine_ParticleSystem_MainModule_set_maxParticles();
@@ -4073,6 +4117,22 @@ void RegisterAllStrippedInternalCalls()
 		//System.Void UnityEngine.ParticleSystem/MainModule::set_scalingMode(UnityEngine.ParticleSystemScalingMode)
 		void Register_UnityEngine_ParticleSystem_MainModule_set_scalingMode();
 		Register_UnityEngine_ParticleSystem_MainModule_set_scalingMode();
+
+		//System.Void UnityEngine.ParticleSystem/MainModule::set_simulationSpace(UnityEngine.ParticleSystemSimulationSpace)
+		void Register_UnityEngine_ParticleSystem_MainModule_set_simulationSpace();
+		Register_UnityEngine_ParticleSystem_MainModule_set_simulationSpace();
+
+		//System.Void UnityEngine.ParticleSystem/MainModule::set_startColorBlittable_Injected(UnityEngine.ParticleSystem/MainModule&,UnityEngine.ParticleSystem/MinMaxGradientBlittable&)
+		void Register_UnityEngine_ParticleSystem_MainModule_set_startColorBlittable_Injected();
+		Register_UnityEngine_ParticleSystem_MainModule_set_startColorBlittable_Injected();
+
+		//System.Void UnityEngine.ParticleSystem/MainModule::set_startRotation3D(System.Boolean)
+		void Register_UnityEngine_ParticleSystem_MainModule_set_startRotation3D();
+		Register_UnityEngine_ParticleSystem_MainModule_set_startRotation3D();
+
+		//System.Void UnityEngine.ParticleSystem/MainModule::set_startSizeBlittable_Injected(UnityEngine.ParticleSystem/MainModule&,UnityEngine.ParticleSystem/MinMaxCurveBlittable&)
+		void Register_UnityEngine_ParticleSystem_MainModule_set_startSizeBlittable_Injected();
+		Register_UnityEngine_ParticleSystem_MainModule_set_startSizeBlittable_Injected();
 
 		//UnityEngine.ParticleSystemScalingMode UnityEngine.ParticleSystem/MainModule::get_scalingMode()
 		void Register_UnityEngine_ParticleSystem_MainModule_get_scalingMode();
@@ -4083,6 +4143,66 @@ void RegisterAllStrippedInternalCalls()
 		Register_UnityEngine_ParticleSystem_MainModule_get_simulationSpace();
 
 	//End Registrations for type : UnityEngine.ParticleSystem/MainModule
+
+	//Start Registrations for type : UnityEngine.ParticleSystem/NoiseModule
+
+		//System.Void UnityEngine.ParticleSystem/NoiseModule::set_enabled(System.Boolean)
+		void Register_UnityEngine_ParticleSystem_NoiseModule_set_enabled();
+		Register_UnityEngine_ParticleSystem_NoiseModule_set_enabled();
+
+		//System.Void UnityEngine.ParticleSystem/NoiseModule::set_frequency(System.Single)
+		void Register_UnityEngine_ParticleSystem_NoiseModule_set_frequency();
+		Register_UnityEngine_ParticleSystem_NoiseModule_set_frequency();
+
+		//System.Void UnityEngine.ParticleSystem/NoiseModule::set_quality(UnityEngine.ParticleSystemNoiseQuality)
+		void Register_UnityEngine_ParticleSystem_NoiseModule_set_quality();
+		Register_UnityEngine_ParticleSystem_NoiseModule_set_quality();
+
+		//System.Void UnityEngine.ParticleSystem/NoiseModule::set_scrollSpeedBlittable_Injected(UnityEngine.ParticleSystem/NoiseModule&,UnityEngine.ParticleSystem/MinMaxCurveBlittable&)
+		void Register_UnityEngine_ParticleSystem_NoiseModule_set_scrollSpeedBlittable_Injected();
+		Register_UnityEngine_ParticleSystem_NoiseModule_set_scrollSpeedBlittable_Injected();
+
+		//System.Void UnityEngine.ParticleSystem/NoiseModule::set_separateAxes(System.Boolean)
+		void Register_UnityEngine_ParticleSystem_NoiseModule_set_separateAxes();
+		Register_UnityEngine_ParticleSystem_NoiseModule_set_separateAxes();
+
+		//System.Void UnityEngine.ParticleSystem/NoiseModule::set_strengthXBlittable_Injected(UnityEngine.ParticleSystem/NoiseModule&,UnityEngine.ParticleSystem/MinMaxCurveBlittable&)
+		void Register_UnityEngine_ParticleSystem_NoiseModule_set_strengthXBlittable_Injected();
+		Register_UnityEngine_ParticleSystem_NoiseModule_set_strengthXBlittable_Injected();
+
+		//System.Void UnityEngine.ParticleSystem/NoiseModule::set_strengthYBlittable_Injected(UnityEngine.ParticleSystem/NoiseModule&,UnityEngine.ParticleSystem/MinMaxCurveBlittable&)
+		void Register_UnityEngine_ParticleSystem_NoiseModule_set_strengthYBlittable_Injected();
+		Register_UnityEngine_ParticleSystem_NoiseModule_set_strengthYBlittable_Injected();
+
+		//System.Void UnityEngine.ParticleSystem/NoiseModule::set_strengthZBlittable_Injected(UnityEngine.ParticleSystem/NoiseModule&,UnityEngine.ParticleSystem/MinMaxCurveBlittable&)
+		void Register_UnityEngine_ParticleSystem_NoiseModule_set_strengthZBlittable_Injected();
+		Register_UnityEngine_ParticleSystem_NoiseModule_set_strengthZBlittable_Injected();
+
+	//End Registrations for type : UnityEngine.ParticleSystem/NoiseModule
+
+	//Start Registrations for type : UnityEngine.ParticleSystem/RotationOverLifetimeModule
+
+		//System.Void UnityEngine.ParticleSystem/RotationOverLifetimeModule::set_enabled(System.Boolean)
+		void Register_UnityEngine_ParticleSystem_RotationOverLifetimeModule_set_enabled();
+		Register_UnityEngine_ParticleSystem_RotationOverLifetimeModule_set_enabled();
+
+		//System.Void UnityEngine.ParticleSystem/RotationOverLifetimeModule::set_separateAxes(System.Boolean)
+		void Register_UnityEngine_ParticleSystem_RotationOverLifetimeModule_set_separateAxes();
+		Register_UnityEngine_ParticleSystem_RotationOverLifetimeModule_set_separateAxes();
+
+		//System.Void UnityEngine.ParticleSystem/RotationOverLifetimeModule::set_xBlittable_Injected(UnityEngine.ParticleSystem/RotationOverLifetimeModule&,UnityEngine.ParticleSystem/MinMaxCurveBlittable&)
+		void Register_UnityEngine_ParticleSystem_RotationOverLifetimeModule_set_xBlittable_Injected();
+		Register_UnityEngine_ParticleSystem_RotationOverLifetimeModule_set_xBlittable_Injected();
+
+		//System.Void UnityEngine.ParticleSystem/RotationOverLifetimeModule::set_yBlittable_Injected(UnityEngine.ParticleSystem/RotationOverLifetimeModule&,UnityEngine.ParticleSystem/MinMaxCurveBlittable&)
+		void Register_UnityEngine_ParticleSystem_RotationOverLifetimeModule_set_yBlittable_Injected();
+		Register_UnityEngine_ParticleSystem_RotationOverLifetimeModule_set_yBlittable_Injected();
+
+		//System.Void UnityEngine.ParticleSystem/RotationOverLifetimeModule::set_zBlittable_Injected(UnityEngine.ParticleSystem/RotationOverLifetimeModule&,UnityEngine.ParticleSystem/MinMaxCurveBlittable&)
+		void Register_UnityEngine_ParticleSystem_RotationOverLifetimeModule_set_zBlittable_Injected();
+		Register_UnityEngine_ParticleSystem_RotationOverLifetimeModule_set_zBlittable_Injected();
+
+	//End Registrations for type : UnityEngine.ParticleSystem/RotationOverLifetimeModule
 
 	//Start Registrations for type : UnityEngine.ParticleSystem/TextureSheetAnimationModule
 
@@ -4115,6 +4235,46 @@ void RegisterAllStrippedInternalCalls()
 		Register_UnityEngine_ParticleSystem_TextureSheetAnimationModule_get_animation();
 
 	//End Registrations for type : UnityEngine.ParticleSystem/TextureSheetAnimationModule
+
+	//Start Registrations for type : UnityEngine.ParticleSystem/VelocityOverLifetimeModule
+
+		//System.Boolean UnityEngine.ParticleSystem/VelocityOverLifetimeModule::get_enabled()
+		void Register_UnityEngine_ParticleSystem_VelocityOverLifetimeModule_get_enabled();
+		Register_UnityEngine_ParticleSystem_VelocityOverLifetimeModule_get_enabled();
+
+		//System.Void UnityEngine.ParticleSystem/VelocityOverLifetimeModule::set_enabled(System.Boolean)
+		void Register_UnityEngine_ParticleSystem_VelocityOverLifetimeModule_set_enabled();
+		Register_UnityEngine_ParticleSystem_VelocityOverLifetimeModule_set_enabled();
+
+		//System.Void UnityEngine.ParticleSystem/VelocityOverLifetimeModule::set_space(UnityEngine.ParticleSystemSimulationSpace)
+		void Register_UnityEngine_ParticleSystem_VelocityOverLifetimeModule_set_space();
+		Register_UnityEngine_ParticleSystem_VelocityOverLifetimeModule_set_space();
+
+		//System.Void UnityEngine.ParticleSystem/VelocityOverLifetimeModule::set_xBlittable_Injected(UnityEngine.ParticleSystem/VelocityOverLifetimeModule&,UnityEngine.ParticleSystem/MinMaxCurveBlittable&)
+		void Register_UnityEngine_ParticleSystem_VelocityOverLifetimeModule_set_xBlittable_Injected();
+		Register_UnityEngine_ParticleSystem_VelocityOverLifetimeModule_set_xBlittable_Injected();
+
+		//System.Void UnityEngine.ParticleSystem/VelocityOverLifetimeModule::set_xMultiplier(System.Single)
+		void Register_UnityEngine_ParticleSystem_VelocityOverLifetimeModule_set_xMultiplier();
+		Register_UnityEngine_ParticleSystem_VelocityOverLifetimeModule_set_xMultiplier();
+
+		//System.Void UnityEngine.ParticleSystem/VelocityOverLifetimeModule::set_yBlittable_Injected(UnityEngine.ParticleSystem/VelocityOverLifetimeModule&,UnityEngine.ParticleSystem/MinMaxCurveBlittable&)
+		void Register_UnityEngine_ParticleSystem_VelocityOverLifetimeModule_set_yBlittable_Injected();
+		Register_UnityEngine_ParticleSystem_VelocityOverLifetimeModule_set_yBlittable_Injected();
+
+		//System.Void UnityEngine.ParticleSystem/VelocityOverLifetimeModule::set_yMultiplier(System.Single)
+		void Register_UnityEngine_ParticleSystem_VelocityOverLifetimeModule_set_yMultiplier();
+		Register_UnityEngine_ParticleSystem_VelocityOverLifetimeModule_set_yMultiplier();
+
+		//System.Void UnityEngine.ParticleSystem/VelocityOverLifetimeModule::set_zBlittable_Injected(UnityEngine.ParticleSystem/VelocityOverLifetimeModule&,UnityEngine.ParticleSystem/MinMaxCurveBlittable&)
+		void Register_UnityEngine_ParticleSystem_VelocityOverLifetimeModule_set_zBlittable_Injected();
+		Register_UnityEngine_ParticleSystem_VelocityOverLifetimeModule_set_zBlittable_Injected();
+
+		//System.Void UnityEngine.ParticleSystem/VelocityOverLifetimeModule::set_zMultiplier(System.Single)
+		void Register_UnityEngine_ParticleSystem_VelocityOverLifetimeModule_set_zMultiplier();
+		Register_UnityEngine_ParticleSystem_VelocityOverLifetimeModule_set_zMultiplier();
+
+	//End Registrations for type : UnityEngine.ParticleSystem/VelocityOverLifetimeModule
 
 	//Start Registrations for type : UnityEngine.ParticleSystemRenderer
 
@@ -4266,6 +4426,10 @@ void RegisterAllStrippedInternalCalls()
 		void Register_UnityEngine_PlayerPrefs_HasKey_Injected();
 		Register_UnityEngine_PlayerPrefs_HasKey_Injected();
 
+		//System.Boolean UnityEngine.PlayerPrefs::TrySetFloat_Injected(UnityEngine.Bindings.ManagedSpanWrapper&,System.Single)
+		void Register_UnityEngine_PlayerPrefs_TrySetFloat_Injected();
+		Register_UnityEngine_PlayerPrefs_TrySetFloat_Injected();
+
 		//System.Boolean UnityEngine.PlayerPrefs::TrySetInt_Injected(UnityEngine.Bindings.ManagedSpanWrapper&,System.Int32)
 		void Register_UnityEngine_PlayerPrefs_TrySetInt_Injected();
 		Register_UnityEngine_PlayerPrefs_TrySetInt_Injected();
@@ -4277,6 +4441,10 @@ void RegisterAllStrippedInternalCalls()
 		//System.Int32 UnityEngine.PlayerPrefs::GetInt_Injected(UnityEngine.Bindings.ManagedSpanWrapper&,System.Int32)
 		void Register_UnityEngine_PlayerPrefs_GetInt_Injected();
 		Register_UnityEngine_PlayerPrefs_GetInt_Injected();
+
+		//System.Single UnityEngine.PlayerPrefs::GetFloat_Injected(UnityEngine.Bindings.ManagedSpanWrapper&,System.Single)
+		void Register_UnityEngine_PlayerPrefs_GetFloat_Injected();
+		Register_UnityEngine_PlayerPrefs_GetFloat_Injected();
 
 		//System.Void UnityEngine.PlayerPrefs::DeleteKey_Injected(UnityEngine.Bindings.ManagedSpanWrapper&)
 		void Register_UnityEngine_PlayerPrefs_DeleteKey_Injected();
@@ -6013,6 +6181,10 @@ void RegisterAllStrippedInternalCalls()
 	//End Registrations for type : UnityEngine.ResourcesAPIInternal
 
 	//Start Registrations for type : UnityEngine.Rigidbody
+
+		//System.Boolean UnityEngine.Rigidbody::get_isKinematic_Injected(System.IntPtr)
+		void Register_UnityEngine_Rigidbody_get_isKinematic_Injected();
+		Register_UnityEngine_Rigidbody_get_isKinematic_Injected();
 
 		//System.Void UnityEngine.Rigidbody::AddForce_Injected(System.IntPtr,UnityEngine.Vector3&,UnityEngine.ForceMode)
 		void Register_UnityEngine_Rigidbody_AddForce_Injected();

@@ -314,7 +314,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void StyledMonoBehaviour__ctor_m703C907E17DDF
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 100929
+// Method Definition Index: 101105
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR MonoScriptData_tDC6DC3A1392451A4DF2420FE8A6F9AA7317838CB UnitySourceGeneratedAssemblyMonoScriptTypes_v1_Get_m71994694EA377063F8961E61FB3837F10B8A82F5 (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -348,7 +348,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR MonoScriptData_tDC6DC3A1392451A4DF2420FE8A6F9
 		return L_6;
 	}
 }
-// Method Definition Index: 100930
+// Method Definition Index: 101106
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnitySourceGeneratedAssemblyMonoScriptTypes_v1__ctor_mF7D91E0DC15DDE3110945E39D332EF893343DFD8 (UnitySourceGeneratedAssemblyMonoScriptTypes_v1_t47ADD36D42C16A612C236B3F3155DA6C7710777D* __this, const RuntimeMethod* method) 
 {
 	{
@@ -434,7 +434,7 @@ IL2CPP_EXTERN_C void MonoScriptData_tDC6DC3A1392451A4DF2420FE8A6F9AA7317838CB_ma
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 100931
+// Method Definition Index: 101107
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PolyverseSkies_Start_mC6A70BFBC3AA0BBC89354AC2748A0000CA37B9AD (PolyverseSkies_t8C99474AEA72355F2E84E8EAB9E088002313AB51* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -480,7 +480,7 @@ IL_002d:
 		return;
 	}
 }
-// Method Definition Index: 100932
+// Method Definition Index: 101108
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PolyverseSkies_Update_m369826D478B2403CF4BC66478FC46514F7AE5511 (PolyverseSkies_t8C99474AEA72355F2E84E8EAB9E088002313AB51* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -597,7 +597,7 @@ IL_00ab:
 		return;
 	}
 }
-// Method Definition Index: 100933
+// Method Definition Index: 101109
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PolyverseSkies__ctor_mA65B436E1A228B3FD49EFD019D30743EAC843BD4 (PolyverseSkies_t8C99474AEA72355F2E84E8EAB9E088002313AB51* __this, const RuntimeMethod* method) 
 {
 	{
@@ -634,7 +634,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PolyverseSkies__ctor_mA65B436E1A228B3FD4
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
-// Method Definition Index: 50195
+// Method Definition Index: 50200
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 Vector4_op_Implicit_m2ECA73F345A7AD84144133E9E51657204002B12D_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_v, const RuntimeMethod* method) 
 {
 	Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 V_0;
